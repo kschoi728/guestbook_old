@@ -107,7 +107,7 @@ pipeline {
                                         -e MYSQL_PASSWORD=education \
                                         ${strDockerImage} "
                 }
-:            }
+            }
         }
         stage ('JMeter LoadTest') {
             agent { label 'agent1' }
